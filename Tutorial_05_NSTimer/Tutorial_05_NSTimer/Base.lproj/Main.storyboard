@@ -37,6 +37,19 @@
                                     <action selector="btnStop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6W-LF-Ykf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeT-BD-ebG">
+                                <rect key="frame" x="161" y="309" width="53" height="30"/>
+                                <state key="normal" title="WATCH"/>
+                                <connections>
+                                    <action selector="btnWatch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EWE-m3-ygc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtm-EQ-QIH">
+                                <rect key="frame" x="80" y="434" width="216" height="95"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                     </view>
@@ -44,6 +57,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="lblShow" destination="rdT-VB-uU8" id="Phd-c8-lMe"/>
+                        <outlet property="lblWatch" destination="mtm-EQ-QIH" id="72r-XT-26Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

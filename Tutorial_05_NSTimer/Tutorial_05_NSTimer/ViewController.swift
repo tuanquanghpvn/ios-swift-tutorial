@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var timer: NSTimer!
+    var watchTimer: NSTimer!
     
     @IBOutlet weak var lblShow: UILabel!
     
@@ -29,6 +30,18 @@ class ViewController: UIViewController {
             lblShow.text = String(trs)
         }
     }
+    
+    
+    @IBOutlet weak var lblWatch: UILabel!
+    @IBAction func btnWatch(sender: UIButton) {
+        watchTimer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("schedulerWatch"), userInfo: nil, repeats: true)
+    }
+    
+    func schedulerWatch() {
+        let watch: String = NSDateFormatter.localizedStringFromDate(NSDate(), dateStyle: .MediumStyle, timeStyle: .LongStyle)
+        lblWatch.text = watch
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
