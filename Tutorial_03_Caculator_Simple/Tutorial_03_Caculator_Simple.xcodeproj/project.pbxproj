@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0424FA1C86776D009A299D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0424F91C86776D009A299D /* AppDelegate.swift */; };
+		0D0424FC1C86776D009A299D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0424FB1C86776D009A299D /* ViewController.swift */; };
+		0D0424FF1C86776D009A299D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0424FD1C86776D009A299D /* Main.storyboard */; };
+		0D0425011C86776D009A299D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0425001C86776D009A299D /* Assets.xcassets */; };
+		0D0425041C86776D009A299D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0425021C86776D009A299D /* LaunchScreen.storyboard */; };
+		0D04250F1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04250E1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.swift */; };
+		0D04251A1C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0425191C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D04250B1C86776D009A299D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0424EE1C86776D009A299D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D0424F51C86776D009A299D;
+			remoteInfo = Tutorial_03_Caculator_Simple;
+		};
+		0D0425161C86776D009A299D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D0424EE1C86776D009A299D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D0424F51C86776D009A299D;
+			remoteInfo = Tutorial_03_Caculator_Simple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D0424F61C86776D009A299D /* Tutorial_03_Caculator_Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial_03_Caculator_Simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0424F91C86776D009A299D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D0424FB1C86776D009A299D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D0424FE1C86776D009A299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D0425001C86776D009A299D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D0425031C86776D009A299D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D0425051C86776D009A299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D04250A1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial_03_Caculator_SimpleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D04250E1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_03_Caculator_SimpleTests.swift; sourceTree = "<group>"; };
+		0D0425101C86776D009A299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0425151C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial_03_Caculator_SimpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0425191C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_03_Caculator_SimpleUITests.swift; sourceTree = "<group>"; };
+		0D04251B1C86776D009A299D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D0424F31C86776D009A299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425071C86776D009A299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425121C86776D009A299D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0424ED1C86776D009A299D = {
+			isa = PBXGroup;
+			children = (
+				0D0424F81C86776D009A299D /* Tutorial_03_Caculator_Simple */,
+				0D04250D1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests */,
+				0D0425181C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests */,
+				0D0424F71C86776D009A299D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D0424F71C86776D009A299D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0424F61C86776D009A299D /* Tutorial_03_Caculator_Simple.app */,
+				0D04250A1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.xctest */,
+				0D0425151C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0424F81C86776D009A299D /* Tutorial_03_Caculator_Simple */ = {
+			isa = PBXGroup;
+			children = (
+				0D0424F91C86776D009A299D /* AppDelegate.swift */,
+				0D0424FB1C86776D009A299D /* ViewController.swift */,
+				0D0424FD1C86776D009A299D /* Main.storyboard */,
+				0D0425001C86776D009A299D /* Assets.xcassets */,
+				0D0425021C86776D009A299D /* LaunchScreen.storyboard */,
+				0D0425051C86776D009A299D /* Info.plist */,
+			);
+			path = Tutorial_03_Caculator_Simple;
+			sourceTree = "<group>";
+		};
+		0D04250D1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D04250E1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.swift */,
+				0D0425101C86776D009A299D /* Info.plist */,
+			);
+			path = Tutorial_03_Caculator_SimpleTests;
+			sourceTree = "<group>";
+		};
+		0D0425181C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D0425191C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.swift */,
+				0D04251B1C86776D009A299D /* Info.plist */,
+			);
+			path = Tutorial_03_Caculator_SimpleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D0424F51C86776D009A299D /* Tutorial_03_Caculator_Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D04251E1C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_Simple" */;
+			buildPhases = (
+				0D0424F21C86776D009A299D /* Sources */,
+				0D0424F31C86776D009A299D /* Frameworks */,
+				0D0424F41C86776D009A299D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorial_03_Caculator_Simple;
+			productName = Tutorial_03_Caculator_Simple;
+			productReference = 0D0424F61C86776D009A299D /* Tutorial_03_Caculator_Simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D0425091C86776D009A299D /* Tutorial_03_Caculator_SimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0425211C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_SimpleTests" */;
+			buildPhases = (
+				0D0425061C86776D009A299D /* Sources */,
+				0D0425071C86776D009A299D /* Frameworks */,
+				0D0425081C86776D009A299D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D04250C1C86776D009A299D /* PBXTargetDependency */,
+			);
+			name = Tutorial_03_Caculator_SimpleTests;
+			productName = Tutorial_03_Caculator_SimpleTests;
+			productReference = 0D04250A1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D0425141C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0425241C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_SimpleUITests" */;
+			buildPhases = (
+				0D0425111C86776D009A299D /* Sources */,
+				0D0425121C86776D009A299D /* Frameworks */,
+				0D0425131C86776D009A299D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D0425171C86776D009A299D /* PBXTargetDependency */,
+			);
+			name = Tutorial_03_Caculator_SimpleUITests;
+			productName = Tutorial_03_Caculator_SimpleUITests;
+			productReference = 0D0425151C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D0424EE1C86776D009A299D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tuan_Quang;
+				TargetAttributes = {
+					0D0424F51C86776D009A299D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0D0425091C86776D009A299D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0D0424F51C86776D009A299D;
+					};
+					0D0425141C86776D009A299D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0D0424F51C86776D009A299D;
+					};
+				};
+			};
+			buildConfigurationList = 0D0424F11C86776D009A299D /* Build configuration list for PBXProject "Tutorial_03_Caculator_Simple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D0424ED1C86776D009A299D;
+			productRefGroup = 0D0424F71C86776D009A299D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0424F51C86776D009A299D /* Tutorial_03_Caculator_Simple */,
+				0D0425091C86776D009A299D /* Tutorial_03_Caculator_SimpleTests */,
+				0D0425141C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D0424F41C86776D009A299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0425041C86776D009A299D /* LaunchScreen.storyboard in Resources */,
+				0D0425011C86776D009A299D /* Assets.xcassets in Resources */,
+				0D0424FF1C86776D009A299D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425081C86776D009A299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425131C86776D009A299D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0424F21C86776D009A299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0424FC1C86776D009A299D /* ViewController.swift in Sources */,
+				0D0424FA1C86776D009A299D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425061C86776D009A299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D04250F1C86776D009A299D /* Tutorial_03_Caculator_SimpleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D0425111C86776D009A299D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D04251A1C86776D009A299D /* Tutorial_03_Caculator_SimpleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D04250C1C86776D009A299D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D0424F51C86776D009A299D /* Tutorial_03_Caculator_Simple */;
+			targetProxy = 0D04250B1C86776D009A299D /* PBXContainerItemProxy */;
+		};
+		0D0425171C86776D009A299D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D0424F51C86776D009A299D /* Tutorial_03_Caculator_Simple */;
+			targetProxy = 0D0425161C86776D009A299D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D0424FD1C86776D009A299D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0424FE1C86776D009A299D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D0425021C86776D009A299D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0425031C86776D009A299D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D04251C1C86776D009A299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D04251D1C86776D009A299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D04251F1C86776D009A299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tutorial_03_Caculator_Simple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-Simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D0425201C86776D009A299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tutorial_03_Caculator_Simple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-Simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D0425221C86776D009A299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tutorial_03_Caculator_SimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial_03_Caculator_Simple.app/Tutorial_03_Caculator_Simple";
+			};
+			name = Debug;
+		};
+		0D0425231C86776D009A299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tutorial_03_Caculator_SimpleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial_03_Caculator_Simple.app/Tutorial_03_Caculator_Simple";
+			};
+			name = Release;
+		};
+		0D0425251C86776D009A299D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tutorial_03_Caculator_SimpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-SimpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tutorial_03_Caculator_Simple;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0D0425261C86776D009A299D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Tutorial_03_Caculator_SimpleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.tuanquanghpvn.Tutorial-03-Caculator-SimpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Tutorial_03_Caculator_Simple;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0424F11C86776D009A299D /* Build configuration list for PBXProject "Tutorial_03_Caculator_Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D04251C1C86776D009A299D /* Debug */,
+				0D04251D1C86776D009A299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D04251E1C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D04251F1C86776D009A299D /* Debug */,
+				0D0425201C86776D009A299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D0425211C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_SimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0425221C86776D009A299D /* Debug */,
+				0D0425231C86776D009A299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D0425241C86776D009A299D /* Build configuration list for PBXNativeTarget "Tutorial_03_Caculator_SimpleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0425251C86776D009A299D /* Debug */,
+				0D0425261C86776D009A299D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D0424EE1C86776D009A299D /* Project object */;
+}
