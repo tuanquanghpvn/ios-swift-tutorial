@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         do {
             let url: NSURL = NSURL(string: src)!
             let dt: NSData = NSData(contentsOfURL: url)!
-            imgLoad.image = UIImage(data: dt)
+            try imgLoad.image = UIImage(data: dt)
         } catch {
             print("Error: ")
         }
