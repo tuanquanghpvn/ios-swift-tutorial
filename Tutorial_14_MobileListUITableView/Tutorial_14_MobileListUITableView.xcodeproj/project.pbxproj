@@ -15,6 +15,7 @@
 		0D73AACC1C88262200539073 /* Tutorial_14_MobileListUITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73AACB1C88262200539073 /* Tutorial_14_MobileListUITableViewTests.swift */; };
 		0D73AAD71C88262200539073 /* Tutorial_14_MobileListUITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73AAD61C88262200539073 /* Tutorial_14_MobileListUITableViewUITests.swift */; };
 		0D73AAE51C8826A500539073 /* MobileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73AAE41C8826A500539073 /* MobileTableViewController.swift */; };
+		0D73AAE91C88329600539073 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D73AAE81C88329600539073 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0D73AAD61C88262200539073 /* Tutorial_14_MobileListUITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial_14_MobileListUITableViewUITests.swift; sourceTree = "<group>"; };
 		0D73AAD81C88262200539073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D73AAE41C8826A500539073 /* MobileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileTableViewController.swift; sourceTree = "<group>"; };
+		0D73AAE81C88329600539073 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0D73AABF1C88262200539073 /* LaunchScreen.storyboard */,
 				0D73AAC21C88262200539073 /* Info.plist */,
 				0D73AAE41C8826A500539073 /* MobileTableViewController.swift */,
+				0D73AAE81C88329600539073 /* DetailViewController.swift */,
 			);
 			path = Tutorial_14_MobileListUITableView;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				0D73AAB91C88262200539073 /* ViewController.swift in Sources */,
 				0D73AAE51C8826A500539073 /* MobileTableViewController.swift in Sources */,
 				0D73AAB71C88262200539073 /* AppDelegate.swift in Sources */,
+				0D73AAE91C88329600539073 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
