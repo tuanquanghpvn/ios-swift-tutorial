@@ -41,7 +41,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="6mZ-ml-4Qe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="OhD-ln-YAb">
                                 <rect key="frame" x="0.0" y="50" width="375" height="44"/>
@@ -51,7 +51,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="mUT-kl-gZW" kind="modal" id="y9k-kx-Eoy"/>
+                                    <segue destination="mUT-kl-gZW" kind="show" id="peG-oS-el4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7WI-r9-MlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1259.5" y="362.5"/>
+            <point key="canvasLocation" x="1431.5" y="362.5"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
